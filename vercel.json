@@ -5,7 +5,7 @@
             "src": "./codigo/index.js",
             "use":"@vercel/node",
             "config":{
-                "includeFiles":["./codigo/db/db.json"]
+                "includeFiles":["db/db.json"]
             }
         }
     ],
