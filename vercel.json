@@ -2,7 +2,7 @@
     "version":2,
     "builds":[
         {
-            "src": "./codigo/index.js",
+            "src": "index.js",
             "use":"@vercel/node",
             "config":{
                 "includeFiles":["db/db.json"]
